@@ -1,0 +1,170 @@
+body {
+  margin:0;
+  padding:0;
+}
+
+@font-face {
+    font-family: coarse;
+    src: url("../fonts/CoarseRounded.otf");
+}
+
+@font-face {
+    font-family: pixel;
+    src: url("../fonts/pixelex.ttf");
+}
+
+#navigation{
+    font-family: pixel;
+    font-size: 20px;
+
+}
+
+#startup{
+    font-family: pixel;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#st-content{
+    text-align: center;
+    font-family: pixel;
+    font-size: 22px;
+    background-color: black;
+    margin: auto;
+    color: white;
+    padding-bottom: 200px;
+    padding-top: 90px;
+}
+
+#vm{
+      font-family: pixel;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#vm-content{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    font-family: pixel;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+#team{
+      font-family: pixel;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#myTab{
+    font-family: pixel;
+    font-size: 20px;
+}
+
+#port{
+    font-family: pixel;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 72%;
+      margin: auto;
+  }
+
+#footer {
+  font-family: pixel;
+  text-align: center;
+  font-size: 15px;
+  width:100%;
+  height:25px;
+  position: fixed;
+  bottom:0;
+  left:0;
+  background:#A8A8A8;
+}
+
+table{
+    margin-top:20px;
+    margin-bottom:0px;
+    margin-left:40px;
+    margin-right:25px;
+    border-collapse:collapse;
+  }
+  
+  th{
+  background-color:azure;
+  padding:10px;
+  border:1px solid black;
+  border color: solid black;
+  }  
+  
+  td{
+  padding:10px;
+  border:1px solid black;
+  border color: solid black;
+  }
+  
+  .td_bio{
+  border:0px;
+  }
+  
+  .title{
+  position:relative;
+  text-align:left;
+  padding-top:60px;
+  padding-bottom:0px;
+  padding-left:40px;
+  padding-right:25px;
+  }
+  
+  .pict{
+  position:relative;
+  top:0px;
+  left:0px;
+  width:0px auto;
+  padding-top:40px;
+  padding-bottom:20px;
+  padding-left:50px;
+  }
+  
+  .line{
+  padding-left:25px;
+  padding-right:25px;
+  }
+    
+  .layout{
+  font-family: coarse;
+  position:relative;
+  margin:0 auto;
+  margin-bottom:20px;
+  top:50px;
+  height:1390px;
+  box-shadow: 5px 5px 30px #888888;
+  }
+  
+  .bio{
+  position:absolute;
+  float:left;
+  top:0;
+  right:0;
+  width:auto;
+  margin-right: 30px;
+  }
+      
+  li{
+  list-style:none
+  }
